@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whisk & Wonder</title>
+  <link rel="stylesheet" href="cake.css">
+</head>
+<body>
+  <header>
+    <h1>Whisk & Wonder</h1>
+  </header>
+
+  <section class="cakes">
+    <div class="cake-item">
+  <img src="https://toujours.co.in/cdn/shop/products/Chocolate-Oreo-Cake.jpg?v=1679651489" alt="Oreo Cake">
+  <p>Oreo Cake – Rs. 300</p>
+</div>
+
+    <div class="cake-item">
+      <img src="https://w0.peakpx.com/wallpaper/922/674/HD-wallpaper-chocolate-cake-cake-food-chocolate-black-sweet-dessert.jpg" alt="Chocolate Cake">
+      <p>Chocolate Cake – Rs. 200</p>
+    </div>
+    <div class="cake-item">
+      <img src="https://cakebee.in/cdn/shop/files/cropped-white-PRZ09034copy_1_a1da5eac-5228-4274-941e-109c738b2c21.jpg?v=1707488346" alt="Red Velvet Cake">
+      <p>Red Velvet Cake – Rs. 250</p>
+    </div>
+    <div class="cake-item">
+      <img src="https://livforcake.com/wp-content/uploads/2017/07/black-forest-cake-thumb-500x500.jpg" alt="Black Forest Cake">
+      <p>Black Forest Cake – Rs. 350</p>
+    </div>
+  </section>
+
+  <section class="order-box">
+    <h2>Order Cake</h2>
+    <label>Rainbow Cake (Quantity)</label>
+    <input type="number" id="rainbow" value="0"><br>
+    <label>Chocolate Cake (Quantity)</label>
+    <input type="number" id="chocolate" value="0"><br>
+    <label>Red Velvet Cake (Quantity)</label>
+    <input type="number" id="redvelvet" value="0"><br>
+    <label>Black Forest Cake (Quantity)</label>
+    <input type="number" id="blackforest" value="0"><br>
+
+    <button onclick="calculateBill()">Place Order</button>
+    <div id="bill"></div>
+  </section>
+ <footer>
+    <h2>Contact Us</h2>
+    <p><strong>Name:</strong> SHAWN</p>
+    <p><strong>Phone:</strong> 8610172538</p>
+    <p><strong>Email:</strong> whiskwonder@gmail.com</p>
+    <p><strong>Location:</strong> Coimbatore, Tamil Nadu, India</p>
+  </footer>
+
+  <script src="cake.js"></script>
+</body>
+</html>
